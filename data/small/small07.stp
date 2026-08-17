@@ -3,95 +3,77 @@
 SECTION Comment
 Name    "small07"
 Creator "Nikola Labus"
-Remark  "Generated example, 35 nodes, 9 terminals"
+Remark  "Generated example, 27 nodes, 7 terminals"
 END
 
 SECTION Graph
-Nodes 35
-Edges 70
-E 1 2 6
-E 1 22 3
-E 1 28 2
+Nodes 27
+Edges 54
+E 1 2 5
+E 1 4 9
+E 1 22 6
+E 1 24 2
 E 2 3 2
-E 2 15 4
-E 2 22 2
-E 2 27 3
-E 3 4 1
-E 3 17 2
-E 3 20 6
-E 3 23 4
-E 3 24 10
+E 3 4 6
 E 3 25 8
-E 3 28 1
-E 4 5 8
-E 4 17 2
-E 5 6 10
-E 5 10 9
-E 5 18 6
-E 5 22 10
-E 6 7 10
-E 7 8 2
-E 7 16 6
-E 8 9 2
-E 8 21 5
-E 9 10 9
-E 10 11 4
-E 10 27 4
-E 10 28 3
-E 11 12 9
-E 11 17 8
-E 11 18 2
-E 12 13 5
-E 12 17 10
-E 13 14 3
-E 13 15 8
-E 13 24 7
-E 13 25 5
-E 14 15 6
+E 4 5 3
+E 4 23 6
+E 5 6 2
+E 5 9 7
+E 6 7 9
+E 6 10 7
+E 6 26 5
+E 7 8 5
+E 7 9 7
+E 7 11 6
+E 7 15 7
+E 7 18 1
+E 7 25 4
+E 8 9 1
+E 8 10 4
+E 9 10 10
+E 9 14 2
+E 10 11 1
+E 10 13 8
+E 10 14 10
+E 10 17 6
+E 10 23 4
+E 10 25 4
+E 11 12 6
+E 12 13 4
+E 12 14 7
+E 13 14 7
+E 14 15 7
 E 14 22 4
-E 15 16 2
-E 16 17 4
-E 17 18 6
-E 17 33 8
-E 18 19 5
-E 18 28 1
-E 19 20 3
-E 20 21 8
-E 20 23 4
-E 20 33 7
-E 21 22 9
-E 21 26 5
-E 22 23 5
-E 22 26 5
-E 22 27 4
-E 23 24 10
-E 23 28 6
-E 24 25 9
-E 25 26 1
-E 26 27 9
-E 26 33 9
-E 27 28 5
-E 28 29 2
-E 28 33 2
-E 29 30 3
-E 30 31 5
-E 31 32 2
-E 32 33 2
-E 33 34 9
-E 34 35 3
+E 15 16 6
+E 15 18 9
+E 16 17 7
+E 16 26 9
+E 17 18 7
+E 17 26 8
+E 18 19 7
+E 19 20 6
+E 20 21 9
+E 21 22 2
+E 21 24 5
+E 21 25 10
+E 22 23 3
+E 22 24 3
+E 23 24 1
+E 24 25 6
+E 25 26 7
+E 26 27 8
 END
 
 SECTION Terminals
-Terminals 9
-T 6
-T 9
-T 13
-T 20
-T 22
-T 24
-T 25
-T 27
-T 29
+Terminals 7
+T 2
+T 3
+T 10
+T 14
+T 19
+T 23
+T 26
 END
 
 EOF
