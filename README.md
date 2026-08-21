@@ -38,6 +38,7 @@ Format fajlova: STP (Steiner Tree Problem format).
 ├── 05_test_C_30_terminals.ipynb        # Testovi na C setu (max 30 terminala)
 ├── 06_test_C_50_terminals.ipynb        # Testovi na C setu (max 50 terminala)
 ├── 07_final_conclusions.ipynb          # Konačni zaključci i poređenje svih rezultata
+├── 08_presentation.ipynb               # Prezentacija za odbranu projekta
 ├── data/
 │   ├── B/                              # SteinLib B benchmark (b01–b18)
 │   ├── C/                              # SteinLib C benchmark (c01–c20)
