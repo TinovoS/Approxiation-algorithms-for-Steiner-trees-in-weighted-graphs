@@ -23,21 +23,27 @@ Korišćeni su benchmark setovi iz [SteinLib](http://steinlib.zib.de/) kolekcije
 - **small** (small01–small10) — 5 do 30 čvorova, za verifikaciju sa brute force-om
 - **B** (b01–b18, J. E. Beasley) — 50 do 100 čvorova, 9 do 50 terminala
 - **C** (c01–c20) — 500 čvorova, do 100 terminala
+  - **C_30_terminals** — redukovana verzija sa max 30 terminala
+  - **C_50_terminals** — redukovana verzija sa max 50 terminala
 
 Format fajlova: STP (Steiner Tree Problem format).
 
 ## Struktura projekta
 
 ```
-├── 01_algorithms.ipynb              # Implementacije svih algoritama + parser
-├── 02_test_on_small_graphs.ipynb    # Pomoćne funkcije za testiranje i vizuelizaciju
-├── 03_test_small.ipynb              # Testovi na small setu (sa brute force-om)
-├── 04_test_B.ipynb                  # Testovi na B setu
-├── 05_test_D.ipynb                  # Testovi na D setu (stres test)
+├── 01_algorithms.ipynb                 # Implementacije svih algoritama + STP parser
+├── 02_evaluation_and_visualization.ipynb  # Pomoćne funkcije za testiranje i vizuelizaciju
+├── 03_test_small.ipynb                 # Testovi na small setu (sa brute force-om)
+├── 04_test_B.ipynb                     # Testovi na B setu
+├── 05_test_C_30_terminals.ipynb        # Testovi na C setu (max 30 terminala)
+├── 06_test_C_50_terminals.ipynb        # Testovi na C setu (max 50 terminala)
+├── 07_final_conclusions.ipynb          # Konačni zaključci i poređenje svih rezultata
 ├── data/
-│   ├── B/                           # SteinLib B benchmark (b01–b18)
-│   ├── C/                           # SteinLib C benchmark (c01–c20)
-│   └── small/                       # Mali test primeri (small01–small10)
+│   ├── B/                              # SteinLib B benchmark (b01–b18)
+│   ├── C/                              # SteinLib C benchmark (c01–c20)
+│   ├── C_30_terminals/                 # C sa max 30 terminala
+│   ├── C_50_terminals/                 # C sa max 50 terminala
+│   └── small/                          # Mali test primeri (small01–small10)
 ├── requirements.txt
 └── README.md
 ```
@@ -46,12 +52,13 @@ Format fajlova: STP (Steiner Tree Problem format).
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate
+.venv\Scripts\activate        # Windows
+# source .venv/bin/activate   # Linux/macOS
 pip install -r requirements.txt
 jupyter notebook
 ```
 
-Notebookovi se pokreću redom: prvo 01, pa 02 (učitava 01), pa 03/04/05 (svaki učitava 02).
+Notebookovi se pokreću redom: prvo `01_algorithms`, pa `02_evaluation_and_visualization` (učitava 01), pa `03`/`04`/`05`/`06` (svaki učitava 02). Finalni zaključci su u `07_final_conclusions`.
 
 ## Napomene
 
